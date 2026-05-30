@@ -1,5 +1,37 @@
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('/fonts/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('fonts/Inter28pt-Bold.woff2') format('woff2'),
+        url('/fonts/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-img{
+    width: 450px;
+    height: 450px;
+    background-image: url("./images/keshieee.jpg");
+    background-size: cover;
+    background-position: center;
 }
