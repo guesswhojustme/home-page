@@ -129,13 +129,19 @@ body{
     align-items: center;
 }
 
-.first-part > img {
+.first-part > div {
+    display: flex;
+    gap: 15px;
+}
+
+.first-part > div > img {
     width: 30px;
     height: 30px;
 }
 
-.first-part > svg {
-    
+.first-part > div > svg {
+    width: 30px;
+    height: 30px;
 }
 
 /* .projects > div {
