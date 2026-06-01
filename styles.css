@@ -17,13 +17,14 @@
 }
 
 *{
+    font-family: 'Inter 28pt';
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Inter 28pt';
 }
 
 body{
+    font-family: 'Inter 28pt';
     display: flex;
     flex-direction: column;
     align-items: center;
